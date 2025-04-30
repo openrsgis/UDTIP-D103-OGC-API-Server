@@ -1,0 +1,24 @@
+{
+    "title": "UDTIP API Server",
+    "description": "UDTIP API Server by tankenqi from WHU",
+    "links": [
+      {
+        "type": "application/openapi+json;version=3.0",
+        "title": "Service Description",
+        "href": "https://app.swaggerhub.com/apis/OGC/ogcapi-features-1-example-1/1.0.1#/",
+        "rel": "service-desc"
+      },
+      {
+        "type": "application/json",
+        "title": "Conformance",
+        "href": "host_url/conformance/",
+        "rel": "conformance"
+      },
+      {
+        "type": "application/json",
+        "title": "Collections",
+        "href": "host_url/collections/",
+        "rel": "data"
+      }
+    ]
+  }

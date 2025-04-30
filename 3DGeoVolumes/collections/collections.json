@@ -1,0 +1,192 @@
+{
+  "links": [
+    {
+      "rel": "original",
+      "href": "host_url/collections",
+      "type": "application/json",
+      "title": "All geospatial data available from this API"
+    }
+  ],
+  "collections": [
+    {
+      "id": "UDTIP-3D",
+      "title": "UDTIP - 3D City Model Collection",
+      "description": "3D Collection for UDTIP",
+      "collectiontype": "3d-container",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              127.17128822772507,37.607788187322384,-0.09,127.19426982004896,37.626293877085665,500
+            ]
+          ],
+          "crs": "http://www.opengis.net/def/crs/OGC/0/CRS84h"
+        }
+      },
+      "links": [
+        {
+          "rel": "collections",
+          "href": "host_url/collections/",
+          "type": "application/json"
+        },
+        {
+          "title": "UDTIP-3D - Collections",
+          "rel": "self",
+          "href": "host_url/collections/UDTIP-3D/",
+          "type": "application/json"
+        },
+        {
+          "title": "UDTIP-3D Building Model",
+          "rel": "items",
+          "href": "host_url/collections/UDTIP-3D/3dtiles",
+          "type": "application/json+3dtiles"
+        }
+      ],
+      "children": [],
+      "content": [
+        {
+          "title": "UDTIP-3D - Collections",
+          "rel": "original",
+          "href": "host_url/collections/UDTIP-3D/3dtiles",
+          "type": "application/json+3dtiles"
+        },
+        {
+          "title": "UDTIP-3D Building Model",
+          "rel": "items",
+          "href": "host_url/collections/UDTIP-3D/3dtiles",
+          "type": "application/json+3dtiles"
+        }
+      ]
+    },
+    {
+      "id": "NoiseModel",
+      "title": "Noise Model",
+      "description": "Noise model from D104",
+      "collectiontype": "3d-container",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              127.18137528630612,
+              37.61509852484231,
+              1.5,
+              127.18279426292094,
+              37.617411327341415,
+              46.2
+            ]
+          ],
+          "crs": "http://www.opengis.net/def/crs/OGC/0/CRS84h"
+        }
+      },
+      "links": [
+        {
+          "rel": "collections",
+          "href": "host_url/collections/",
+          "type": "application/json"
+        },
+        {
+          "title": "Noise Model - Collections",
+          "rel": "self",
+          "href": "host_url/collections/NoiseModel/",
+          "type": "application/json"
+        },
+        {
+          "title": "Nosie Model Facade Day",
+          "rel": "items",
+          "href": "http://111.37.195.68/NoiseModel/output_1016/Type_2_Res_Facade_Day.glb",
+          "type": "application/glb"
+        },
+        {
+          "title": "Nosie Model Facade Night",
+          "rel": "items",
+          "href": "http://111.37.195.68/NoiseModel/output_1016/Type_2_Res_Facade_Night.glb",
+          "type": "application/glb"
+        },
+        {
+          "title": "Nosie Model Plan Day",
+          "rel": "items",
+          "href": "http://111.37.195.68/NoiseModel/output_1016/Type_2_Res_Plan_Day.glb",
+          "type": "application/glb"
+        },
+        {
+          "title": "Nosie Model Plan Night",
+          "rel": "items",
+          "href": "http://111.37.195.68/NoiseModel/output_1016/Type_2_Res_Plan_Night.glb",
+          "type": "application/glb"
+        }
+      ],
+      "children": [],
+      "content": [
+        {
+          "title": "Nosie Model Facade Day",
+          "rel": "items",
+          "href": "http://111.37.195.68/NoiseModel/output_1016/Type_2_Res_Facade_Day.glb",
+          "type": "application/glb"
+        },
+        {
+          "title": "Nosie Model Facade Night",
+          "rel": "items",
+          "href": "http://111.37.195.68/NoiseModel/output_1016/Type_2_Res_Facade_Night.glb",
+          "type": "application/glb"
+        },
+        {
+          "title": "Nosie Model Plan Day",
+          "rel": "items",
+          "href": "http://111.37.195.68/NoiseModel/output_1016/Type_2_Res_Plan_Day.glb",
+          "type": "application/glb"
+        },
+        {
+          "title": "Nosie Model Plan Night",
+          "rel": "items",
+          "href": "http://111.37.195.68/NoiseModel/output_1016/Type_2_Res_Plan_Night.glb",
+          "type": "application/glb"
+        }
+      ]
+    },
+    {
+      "id": "SampleDataset",
+      "title": "Sample Dataset from WHU",
+      "description": "Sample Dataset from WHU for Geo-AI training and testing.",
+      "collectiontype": "feature",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              114.3541,30.52967649,14.11,
+              114.3550,30.53007649,19.774
+            ]
+          ],
+          "crs": "http://www.opengis.net/def/crs/OGC/0/CRS84h"
+        }
+      },
+      "links": [
+        {
+          "rel": "collections",
+          "href": "host_url/collections/",
+          "type": "application/json"
+        },
+        {
+          "title": "Sample Dataset - Collections",
+          "rel": "self",
+          "href": "host_url/collections/SampleDataset/",
+          "type": "application/json"
+        },
+        {
+          "title": "Sample Dataset - Wuhan",
+          "rel": "items",
+          "href": "https://111.37.195.68/SampleDataset/SampleDataWuhan.json",
+          "type": "application/json"
+        }
+      ],
+      "children": [],
+      "content": [
+        {
+          "title": "Sample Dataset - Wuhan",
+          "rel": "items",
+          "href": "https://111.37.195.68/SampleDataset/SampleDataWuhan.json",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

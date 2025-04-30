@@ -1,0 +1,7 @@
+Type_2_Res_Facade_Day.glb : 	"altitude":46.2,	"latitude":37.617411327341415,	"longitude":127.18137528630612
+
+Type_2_Res_Facade_Night.glb : 	"altitude":46.2,	"latitude":37.617411327341415,	"longitude":127.18137528630612
+
+Type_2_Res_Plan_Day.glb : 		"altitude":1.5,		"latitude":37.61509852484231,	"longitude":127.18279426292094
+
+Type_2_Res_Plan_Night.glb : 	"altitude":1.5,		"latitude":37.61509852484231,	"longitude":127.18279426292094
