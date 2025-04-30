@@ -1,7 +1,7 @@
 # UDTIP-D103-OGC-API-Server
 
 WHU solution to OGC UPTIP D103.
-![](./img/D103.png)
+![D103 Solution](./img/D103.png)
 
 ## Installation
 
