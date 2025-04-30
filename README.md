@@ -1,4 +1,4 @@
-# 3DGeoVolumesAPI
+# UDTIP-D103-OGC-API-Server
 
 ### Live Demo: http://10.101.240.60:3004/
 > note: Please use the website of the School of Remote Sensing Information Engineering, Wuhan University to access it
@@ -23,7 +23,7 @@ npm install
    * **Collections with bbox filter**: `http://localhost:port/collections?bbox=minx,miny,maxx,maxy`
 
 ### Adding Collection Contents
-* Add contents to `3DGeoVolumes\collections\collections.json` 
+* Add contents to `UDTIP-D103-OGC-API-Server\collections\collections.json` 
 * The 3D contents may be added directly in the collection folder or linked as HREF to the original source.
   * tileset.json (Cesium 3D Tiles)
   * i3s service json (ESRI Scene index)
