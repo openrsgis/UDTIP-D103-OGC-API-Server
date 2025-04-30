@@ -1,10 +1,7 @@
 # UDTIP-D103-OGC-API-Server
 
-### Live Demo: http://10.101.240.60:3004/
-> note: Please use the website of the School of Remote Sensing Information Engineering, Wuhan University to access it
-
-
-![Steinbeis GeoVolumes API](./img/ResourceArchitecture2.jpg)
+WHU solution to OGC UPTIP D103.
+![](./img/D103.png)
 
 ## Installation
 
